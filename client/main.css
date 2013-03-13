@@ -1,0 +1,11 @@
+body {
+	padding-top: 70px;
+	padding-bottom: 40px;
+}
+
+/* fix the blank between top and navbar on iphone */
+@media (max-width: 979px) {
+	body {
+		padding-top: 0;
+	}
+}
